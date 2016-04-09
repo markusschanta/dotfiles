@@ -1,5 +1,7 @@
 - clean: []
 - link:
+    ~/.aliases:
+      path: aliases
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
       path: launchagents/MuteVolumeAtNight.plist
 - shell:
