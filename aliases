@@ -3,4 +3,4 @@ alias ll="ls -lac"
 alias lt="ls -ltr"
 alias ld="ls -ld"
 
-alias dotinstall=". ~/.dotfiles/install"
+alias dotinstall="pushd $PWD > /dev/null; . ~/.dotfiles/install; popd > /dev/null"
