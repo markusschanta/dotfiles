@@ -2,4 +2,7 @@
 - link:
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
       path: launchagents/MuteVolumeAtNight.plist
-- shell: []
+- shell:
+    -
+      - "./shell/osx.sh"
+      - "OSX Configuration"
