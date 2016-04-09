@@ -1,3 +1,5 @@
 - clean: []
-- link: {}
+- link:
+    ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
+      path: launchagents/MuteVolumeAtNight.plist
 - shell: []
