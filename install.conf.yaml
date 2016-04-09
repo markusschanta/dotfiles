@@ -4,6 +4,8 @@
       path: aliases
     ~/.bashrc:
       path: bashrc
+    ~/.dotfiles:
+      path: ""
     ~/.profile:
       path: profile
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
