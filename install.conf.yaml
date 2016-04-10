@@ -10,6 +10,8 @@
       path: profile
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
       path: launchagents/MuteVolumeAtNight.plist
+    ~/Library/Services/Rename To Title Case.workflow:
+      path: services/Rename To Title Case.workflow
 - shell:
     -
       - "./shell/osx.sh"
