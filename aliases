@@ -5,7 +5,7 @@ alias lt="ls -ltr"
 alias ld="ls -ld"
 
 # machine-specific aliases
-alias imacsleep="ssh -t imac 'sudo shutdown -s now'"
+alias imacsleep="ssh -t imac 'pmset displaysleepnow'"
 alias imacmute="ssh imac 'osascript -e \"set volume output muted true\"'"
 alias imacunmute="ssh imac 'osascript -e \"set volume output muted false\"'"
 
