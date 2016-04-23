@@ -1,3 +1,10 @@
+# directory navigation
+alias ..='cd ..'
+alias ..2='cd ../..'
+alias ..3='cd ../../..'
+alias ..4='cd ../../../..'
+alias ..5='cd ../../../../..'
+
 # list directory contents
 alias l="ls -l"
 alias ll="ls -lac"
