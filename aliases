@@ -8,6 +8,9 @@ alias ld="ls -ld"
 alias imacsleep="ssh -t imac 'pmset displaysleepnow'"
 alias imacmute="ssh imac 'osascript -e \"set volume output muted true\"'"
 alias imacunmute="ssh imac 'osascript -e \"set volume output muted false\"'"
+function imacvolume {
+  ssh imac "osascript -e 'set Volume $1'"
+}
 
 # dotbot-specific
 alias dotinstall="pushd $PWD > /dev/null; . ~/.dotfiles/install; popd > /dev/null"
