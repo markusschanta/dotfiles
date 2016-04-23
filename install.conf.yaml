@@ -10,6 +10,8 @@
       path: ""
     ~/.profile:
       path: profile
+    ~/.pylintrc:
+      path: pylintrc
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
       path: launchagents/MuteVolumeAtNight.plist
     ~/Library/Services/Rename To Title Case.workflow:
