@@ -10,6 +10,8 @@
       path: ""
     ~/.profile:
       path: profile
+    ~/.pylintrc:
+      path: pylintrc
     ~/Library/LaunchAgents/GoodMorning.plist:
       path: launchagents/GoodMorning.plist
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
