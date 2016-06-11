@@ -5,3 +5,9 @@ max-line-length=120
 
 # Maximum number of lines in a module
 max-module-lines=1000
+
+# E1101: Instance of x has no y member
+# E1127: Slice index is not an int, None, or instance with __index__
+# C0103: Invalid variable name
+# C0111: Missing docstring
+disable=E1101, E1127, C0103, C0111
