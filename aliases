@@ -19,5 +19,9 @@ function imacvolume {
   ssh imac "osascript -e 'set Volume $1'"
 }
 
+# shell scripts
+alias clonegist="./.dotfiles/shell/clonegist.sh"
+alias clonegithub="./.dotfiles/shell/clonegithub.sh"
+
 # dotbot-specific
 alias dotinstall="pushd $PWD > /dev/null; . ~/.dotfiles/install; popd > /dev/null"
