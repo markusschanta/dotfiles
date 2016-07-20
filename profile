@@ -1,3 +1,3 @@
 source ~/.bashrc
 
-source ~/Coding/virtualenvs/markus/bin/activate
+source ~/.virtualenvs/python/bin/activate
