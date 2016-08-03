@@ -1,4 +1,4 @@
 source ~/.bashrc
 
+source "/usr/local/bin/virtualenvwrapper.sh"
 source ~/.virtualenvs/python/bin/activate
-source ~/.virtualenvs/python/bin/virtualenvwrapper.sh
