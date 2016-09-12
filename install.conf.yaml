@@ -19,6 +19,8 @@
       path: launchagents/GoodMorning.plist
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist:
       path: launchagents/MuteVolumeAtNight.plist
+    ~/Library/LaunchAgents/SortDownloads.plist:
+      path: launchagents/SortDownloads.plist
     ~/Library/Services/Rename To Title Case.workflow:
       path: services/Rename To Title Case.workflow
 - shell:
