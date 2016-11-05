@@ -22,6 +22,7 @@ function imacvolume {
 # shell scripts
 alias clonegist=". ~/.dotfiles/shell/clonegist.sh"
 alias clonegithub=". ~/.dotfiles/shell/clonegithub.sh"
+alias startjupyternotebook=". ~/.dotfiles/python/start-jupyter-notebook.sh"
 alias virtualenvsetup=". ~/.dotfiles/python/setupvirtualenv.sh"
 alias virtualenvinstall="pip install ~/.dotfiles/python/requirements.txt"
 
