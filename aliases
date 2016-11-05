@@ -22,7 +22,8 @@ function imacvolume {
 # shell scripts
 alias clonegist=". ~/.dotfiles/shell/clonegist.sh"
 alias clonegithub=". ~/.dotfiles/shell/clonegithub.sh"
-alias setupvirtualenv=". ~/.dotfiles/python/setupvirtualenv.sh"
+alias virtualenvsetup=". ~/.dotfiles/python/setupvirtualenv.sh"
+alias virtualenvinstall="pip install ~/.dotfiles/python/requirements.txt"
 
 # dotbot-specific
 alias dotinstall="pushd $PWD > /dev/null; . ~/.dotfiles/install; popd > /dev/null"
