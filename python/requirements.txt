@@ -1,4 +1,6 @@
 awscli
+ipython
+jupyter
 matplotlib
 pandas
 requests
