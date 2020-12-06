@@ -11,3 +11,6 @@ export HISTFILESIZE=100000
 shopt -s histappend
 ## Save and reload the history after each command finishes
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+## Silence MacOS bash deprecation warning (https://apple.stackexchange.com/questions/371997)
+export BASH_SILENCE_DEPRECATION_WARNING=1
