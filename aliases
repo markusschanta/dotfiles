@@ -64,3 +64,6 @@ alias virtualenvinstall="pip install ~/.dotfiles/python/requirements.txt"
 
 # dotbot-specific
 alias dotinstall="pushd $PWD > /dev/null; . ~/.dotfiles/install; popd > /dev/null"
+
+# Python-specific
+alias python='python3'
