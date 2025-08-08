@@ -9,7 +9,6 @@
     ~/.dotfiles: ""
     ~/.profile: profile
     ~/.pylintrc: pylintrc
-    ~/Library/LaunchAgents/GoodMorning.plist: launchagents/GoodMorning.plist
     ~/Library/LaunchAgents/MuteVolumeAtNight.plist: launchagents/MuteVolumeAtNight.plist
     ~/Library/Services/Rename To Title Case.workflow: services/Rename To Title Case.workflow
 - shell:
