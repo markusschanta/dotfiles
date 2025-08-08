@@ -1,3 +1,3 @@
 source ~/.bashrc
 
-source ~/.virtualenvs/python/bin/activate
+source ~/.virtualenvs/dev/bin/activate
